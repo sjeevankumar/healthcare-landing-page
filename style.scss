@@ -1,0 +1,289 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+// General Styles
+body {
+      font-family: "Mulish", sans-serif;
+      background: #e5e5e5;
+}
+// Header
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 62px 0px 85px 0px;
+      .brand_logo {
+            width: 160px;
+            height: 41px;
+      }
+      .nav {
+            ul {
+                  display: flex;
+                  li {
+                        list-style: none;
+                        margin-right: 40px;
+                        a {
+                              text-decoration: none;
+                              font-weight: 400;
+                              font-size: 18px;
+                              color: #1f1534;
+                              opacity: 0.5;
+                              text-transform: capitalize;
+                        }
+                        a:hover {
+                              opacity: 1;
+                        }
+                  }
+            }
+      }
+}
+// Hero Section
+.hero_section_container {
+      display: flex;
+      margin-bottom: 193px;
+      .hero_section_left_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 109px 0px 190px;
+            h1 {
+                  font-weight: 700;
+                  font-size: 41px;
+                  line-height: 56px;
+                  margin-bottom: 25px;
+                  color: #000000;
+            }
+            p {
+                  font-weight: 300;
+                  font-size: 21px;
+                  line-height: 32px;
+                  color: #7d7987;
+                  margin-bottom: 48px;
+            }
+            button {
+                  width: 200px;
+                  height: 56px;
+                  border-radius: 55px;
+                  background-color: #458ff6;
+                  font-weight: 700;
+                  font-weight: 18px;
+                  color: #ffffff;
+                  border: none;
+                  opacity: 0.9;
+            }
+            button:hover {
+                  cursor: pointer;
+                  opacity: 1;
+                  transition: ease-in-out 0.3s;
+            }
+      }
+      .hero_section_right_container {
+            img {
+                  width: 693px;
+                  height: 598px;
+            }
+      }
+}
+//  Our Services
+.our_services_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 220px;
+      .osc_title {
+            margin-bottom: 33px;
+            position: relative;
+            h3 {
+                  font-weight: 700;
+                  font-size: 36px;
+                  color: #000000;
+                  margin-bottom: 26px;
+            }
+            div {
+                  width: 56px;
+                  height: 2px;
+                  border-radius: 5px;
+                  background: #000000;
+                  position: absolute;
+                  bottom: 0;
+                  left: 40%;
+            }
+      }
+      .osc_para_container {
+            margin-bottom: 80px;
+            p {
+                  width: 952px;
+                  height: 60px;
+                  font-weight: 300;
+                  font-size: 18px;
+                  line-height: 30px;
+                  text-align: center;
+                  color: #7d7987;
+            }
+      }
+      .osc_services_list_container {
+            margin: 0px 240px;
+            margin-bottom: 69px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 34px;
+            row-gap: 37px;
+            div {
+                  width: 350px;
+                  height: 354px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 0px 45px 0px 39px;
+                  background-color: #ffffff;
+                  border-radius: 20px;
+                  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+                  img {
+                        width: 91.98px;
+                        height: 90px;
+                        margin-bottom: 22.2px;
+                  }
+                  h4 {
+                        margin-bottom: 15px;
+                        font-weight: 700;
+                        font-size: 24px;
+                        color: #000000;
+                  }
+                  p {
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #7d7987;
+                  }
+            }
+      }
+      button {
+            width: 200px;
+            height: 56px;
+            border-radius: 55px;
+            border: 1.4px solid #458ff6;
+            color: #458ff6;
+            font-weight: 700;
+            font-size: 18px;
+      }
+      button:hover {
+            cursor: pointer;
+            transition: ease-in-out 0.3s;
+      }
+}
+// Leading Healthcare Porviders section
+.leading_healthcare_providers_container {
+      display: flex;
+      margin-bottom: 229px;
+      .lhpc_left_container {
+            img {
+                  width: 650px;
+                  height: 477px;
+            }
+      }
+      .lhpc_right_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 149px 0px 142px;
+            .lhpc_rc_title_container {
+                  margin-bottom: 31px;
+                  h3 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 56px;
+                        color: #000000;
+                        margin-bottom: 26px;
+                  }
+                  div {
+                        width: 56px;
+                        height: 2px;
+                        border-radius: 10px;
+                        background: #000000;
+                  }
+            }
+            .lhpc_rc_para_container {
+                  margin-bottom: 37px;
+                  p {
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #7d7987;
+                  }
+            }
+            .lhpc_rc_btn_container {
+                  button {
+                        width: 200px;
+                        height: 56px;
+                        border-radius: 55px;
+                        border: 1.4px solid #458ff6;
+                        color: #458ff6;
+                        font-weight: 700;
+                        font-size: 18px;
+                  }
+                  button:hover {
+                        cursor: pointer;
+                        transition: ease-in-out 0.3s;
+                  }
+            }
+      }
+}
+//  Download Our Mobile apps
+.download_our_mobile_apps_container {
+      display: flex;
+      margin-bottom: 266px;
+      .domac_left_container {
+            padding: 0px 71px 0px 280px;
+            .domac_lc_title_container {
+                  margin-bottom: 31px;
+                  h3 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 48px;
+                        color: #000000;
+                        margin-bottom: 30px;
+                  }
+                  div {
+                        width: 56px;
+                        height: 2px;
+                        border-radius: 6px;
+                        background: #000000;
+                  }
+            }
+            .domac_lc_para_container {
+                  margin-bottom: 40px;
+                  p {
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #7d7987;
+                  }
+            }
+            .domac_lc_button_container {
+                  button {
+                        width: 200px;
+                        height: 56px;
+                        border-radius: 55px;
+                        border: 1.4px solid #458ff6;
+                        color: #458ff6;
+                        font-weight: 700;
+                        font-size: 18px;
+                        img {
+                              margin-left: 14.79px;
+                        }
+                  }
+                  button:hover {
+                        cursor: pointer;
+                        transition: ease-in-out 0.3s;
+                  }
+            }
+      }
+      .domac_right_container {
+            img {
+                  width: 665px;
+                  height: 434px;
+            }
+      }
+}
